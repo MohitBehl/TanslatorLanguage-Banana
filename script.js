@@ -9,7 +9,6 @@ function getTranslatedUrl(text) {
 }
 
 function onClickHandler() {
-  alert(inputTextArea.value);
   fetch(getTranslatedUrl(inputTextArea.value))
     .then(function responseHandler(response) {
       return response.json();
