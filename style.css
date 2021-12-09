@@ -10,5 +10,16 @@ body{
     margin: 1rem;
     padding: 0.5rem;
     max-width: fit-content;
-    
+    border-radius: 0.3rem;
+    border: 2px solid black;
+}
+#textArea{
+    display: block;
+    width: 90%;
+    height: 30vh;
+    margin: 1rem;
+    padding: 1rem;
+    font-size: larger;
+    resize: none;
+    border-radius: 1rem;
 }
