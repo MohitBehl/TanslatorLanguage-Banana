@@ -1,25 +1,35 @@
-:root{
-    --primary-color : #3B82F6;
+:root {
+  --primary-color: #3b82f6;
+  --white-color: #f9fafb;
 }
-body{
-    background-color: var(--primary-color);
+body {
+  background-color: var(--primary-color);
 }
-#btn-translate{
-    display: block;
-    color: black;
-    margin: 1rem;
-    padding: 0.5rem;
-    max-width: fit-content;
-    border-radius: 0.3rem;
-    border: 2px solid black;
+#btn-translate {
+  display: block;
+  color: black;
+  margin: 1rem;
+  padding: 0.5rem;
+  max-width: fit-content;
+  border-radius: 0.3rem;
+  border: 2px solid black;
 }
-#textArea{
-    display: block;
-    width: 90%;
-    height: 30vh;
-    margin: 1rem;
-    padding: 1rem;
-    font-size: larger;
-    resize: none;
-    border-radius: 1rem;
+#textArea {
+  display: block;
+  width: 90%;
+  height: 30vh;
+  margin: 1rem;
+  padding: 1rem;
+  font-size: larger;
+  resize: none;
+  border-radius: 1rem;
+}
+#output {
+  border: 1px solid black;
+  height: 10vh;
+  width: 90%;
+  margin: 1rem;
+  padding: 1rem;
+  background-color: var(--white-color);
+  border-radius: 1rem;
 }
