@@ -8,17 +8,37 @@
     <link rel="stylesheet" href="/style.css" />
   </head>
   <body>
+    <!-- Nav Bar -->
+    <nav class="navigation"><h1>banana talk</h1></nav>
+
     <!-- textarea for input -->
     <textarea
+      class="container container-centre"
       placeholder="Enter text in english to translate"
       id="textArea"
     ></textarea>
 
     <!-- button to handle processing -->
-    <button type="button" id="btn-translate">Translate</button>
+    <div class="container container-centre">
+      <button type="button" id="btn-translate">Translate</button>
+    </div>
 
     <!-- Div for output -->
-    <div id="output"></div>
+    <div id="output" class="container container-centre"></div>
+
+    <!-- footer -->
+    <footer class="footerStyle">
+      <div class="footerHeading"><h3>about</h3></div>
+      <div class="footerInfo">
+        <p>
+          This is a project to learn about basic JS. don't take it
+          seriously.forgive for any mistakes, learn & let everyone learn.
+        </p>
+        <p>
+            HOPE YOU LIKE THE PROJECT , HAVE A PIZZA PARTY !!!.
+        </p>
+      </div>
+    </footer>
 
     <!-- embedding script file -->
     <script src="script.js"></script>
