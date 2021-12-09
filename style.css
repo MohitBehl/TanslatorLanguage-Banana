@@ -1,0 +1,14 @@
+:root{
+    --primary-color : #3B82F6;
+}
+body{
+    background-color: var(--primary-color);
+}
+#btn-translate{
+    display: block;
+    color: black;
+    margin: 1rem;
+    padding: 0.5rem;
+    max-width: fit-content;
+    
+}

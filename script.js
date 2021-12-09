@@ -1,4 +1,6 @@
-var promptInp = prompt(
-  "promt is used to ask for input, kindly enter your input ?"
-);
-alert("alert for printing : " + promptInp);
+var btnTranslate = document.querySelector("#btn-translate");
+
+function onClickHandler() {
+  alert("clicked");
+}
+btnTranslate.addEventListener("click", onClickHandler);
